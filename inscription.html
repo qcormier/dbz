@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+	<title>Dragon Ball Z</title>
+	<link rel="stylesheet" href="styleinsc.css" type="text/css">
+	
+	</head>
+    <body>
+	
+
+    <h1>Formulaire d'inscription</h1>
+
+
+        <form method="post" action="inscriptionok.html">
+        <fieldset>
+
+				M.<input type="radio" name="civilite" value="monsieur" checked="true"/> &nbsp;
+				Mme <input type="radio" name="civilite" value="madame" />
+				Mlle<input type="radio" name="civilite" value="mademoiselle" />
+				</br>
+				<label>Prénom : </label><input type="text" name="prenom" />
+				<br />
+				<label>Nom : </label><input type="text" name="nom" />
+				</br>
+				<label>Age : </label><input type="number" name="age" size="5" min="1" max="100" maxlength="3" /><br />		
+			     <label>Code postal : </label><input type="text" name="cp" maxlength="5"  pattern="[0-9]{5}"/><br />
+				 <label>Adresse Email :</label><input type="send" name="email" placeholder="Entrez votre adresse email" title="Entrez votre adresse email"/>
+				 
+			    <br />
+	
+			   
+			   
+			   
+			   <br />
+			   Entrez votre pays de naissance <select name="pays" >
+													<option value="UK">Royaume-Uni</option>		
+													<option value="FR" selected="true">France</option>
+													<option value="BE">Belgique</option>
+													<option value="DE">Allemagne</option>
+													<option value="SP">Espagne</option>
+													<option value="LU">Luxembourg</option>
+													<option value="SW">Suisse</option>
+												</select>
+				 <br />
+				
+		</fieldset>										
+				 <input type="submit" name="ok" value="S'inscrire" />
+				 <input type="reset" name="raz" value="Remettre à zéro" />			
+		</form>
+        <div class="back"><a href="accueil.html">Retour à la page d'accueil</a></div>
+	
+	
+<div id="footer">Copyright Dragon Ball Z Fans - Tous droits réservés</div>   	
+</body>
+</html>

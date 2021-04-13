@@ -69,7 +69,9 @@ session_start();
 				 <br><br>
 				 <a href="signup.php">Cliquez pour s'inscrire</a>		
 		</form>
-        <div class="back"><a href="accueil.html">Retour à la page d'accueil</a></div>
+        <div class="back"><a href="index.php">Retour à la page d'accueil</a></div>
+
+        <a href="index.php">lll</a>
 	
 	
 <div id="footer">Copyright Dragon Ball Z Fans - Tous droits réservés</div>   	

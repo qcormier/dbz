@@ -58,7 +58,7 @@ session_start();
 				 <br><br>
 				 <a href="login.php">Se connecter</a>			
 		</form>
-        <div class="back"><a href="accueil.html">Retour à la page d'accueil</a></div>
+        <div class="back"><a href="accueil.php">Retour à la page d'accueil</a></div>
 	
 	
 <div id="footer">Copyright Dragon Ball Z Fans - Tous droits réservés</div>   	
